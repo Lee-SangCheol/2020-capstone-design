@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>helpForm</class>
+ <widget class="QWidget" name="helpForm">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1283</width>
+    <height>531</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>How to use the KIT</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(242, 242, 242);
+font: 75 8pt &quot;Arial&quot;;
+color: rgb(71, 89, 86);
+</string>
+  </property>
+  <widget class="QLabel" name="label_7">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>791</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>helpimg2.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>10</y>
+     <width>522</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>490</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>490</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(242, 242, 242);
+font: 75 9.5pt &quot;Arial&quot;;
+color: rgb(71, 89, 86);
+</string>
+      </property>
+      <property name="text">
+       <string>❶ - 1 유튜브의 경우: 유튜브 링크를 직접 칸에 입력합니다.
+     - 2 저장된 파일의 경우: 직접 입력할 수 없습니다.</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="minimumSize">
+       <size>
+        <width>490</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>490</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(242, 242, 242);
+font: 75 9.5pt &quot;Arial&quot;;
+color: rgb(71, 89, 86);
+</string>
+      </property>
+      <property name="text">
+       <string>❷ - 1 유튜브의 경우: Browse.. 버튼 클릭 시 유튜브 홈페이지를 
+       띄워줍니다.
+     - 2 저장된 파일의 경우: ❶에서 직접 입력할 수 없으므로
+       Browse.. 버튼을 클릭하여 파일 탐색기를 통해 원하는
+       동영상을 선택하여 경로 가져와야 합니다.</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="minimumSize">
+       <size>
+        <width>490</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>490</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(242, 242, 242);
+font: 75 9.5pt &quot;Arial&quot;;
+color: rgb(71, 89, 86);
+</string>
+      </property>
+      <property name="text">
+       <string>❸ 찾고자 하는 키워드를 입력합니다.
+※ 단, 띄어쓰기 제외 10글자 이내 &amp; 특수문자 입력 불가능</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="minimumSize">
+       <size>
+        <width>490</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>490</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(242, 242, 242);
+font: 75 9.5pt &quot;Arial&quot;;
+color: rgb(71, 89, 86);
+</string>
+      </property>
+      <property name="text">
+       <string>❹ Start! 버튼을 클릭하게 되면 Please wait...라는 문구가 뜨고  
+    검색이 완료되면 Please wait...문구는 사라지고 ❺와 ❻이 
+    나타납니다.</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="minimumSize">
+       <size>
+        <width>490</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>490</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(242, 242, 242);
+font: 75 9.5pt &quot;Arial&quot;;
+color: rgb(71, 89, 86);
+</string>
+      </property>
+      <property name="text">
+       <string>❺ 영상에서 키워드가 나타난 시간과 빈도수를 표로 나타냅니다.
+※ 만약, 영상에 해당 키워드가 없는 경우 비어있는 표가 나타납니다.</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="minimumSize">
+       <size>
+        <width>490</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>490</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(242, 242, 242);
+font: 75 9.5pt &quot;Arial&quot;;
+color: rgb(71, 89, 86);
+</string>
+      </property>
+      <property name="text">
+       <string>❻ ❺표에서 원하는 시간의 행을 클릭하고 Play that time! 버튼을
+     클릭하면 해당 시간대의 영상을 재생합니다.
+※ ❺표의 행을 마우스 더블클릭 시에도 영상 재생가능</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
